@@ -1,0 +1,10 @@
+https://research.atspotify.com/contextual-and-sequential-user-embeddings-for-music-recommendation/
+
+### 문제 정의
+
+* 음악 추천의 특징
+- 콘텐츠가 짧아서, 여러 콘텐츠들이 함께 소비됨
+
+* 용어 정의
+- session: 짧게 이어지는 track consumption, 한 곡이 끝나고 20 분이 지나면, 다른 세션으로 간주
+- context: 
