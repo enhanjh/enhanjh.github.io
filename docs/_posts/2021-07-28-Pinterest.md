@@ -2,7 +2,8 @@
 
 
 ### pinterest metric
-(https://medium.com/pinterest-engineering/pinvestigator-a-tool-for-exploring-experiment-related-changes-a58f143f83c)
+[원문링크](https://medium.com/pinterest-engineering/pinvestigator-a-tool-for-exploring-experiment-related-changes-a58f143f83c)
+* 주요 metric 과 질문
     - active 고객 수 (pinterest 의 가장 중요한 지표)
     - 기존 고객들은 행복한가?
     - 가입 고객 수는 늘어나고 있는가?
@@ -10,7 +11,8 @@
 
 
 ### anomalous metrics
-(https://medium.com/pinterest-engineering/learning-about-your-business-from-anomalous-metrics-7d2b7ac0bea9)
+[원문링크](https://medium.com/pinterest-engineering/learning-about-your-business-from-anomalous-metrics-7d2b7ac0bea9)
+* 서비스가 제대로 돌아가고 있는지 확인
     - 최근 4~6 주간의 일일 변화량을 정규 분포로 가정
     - 오늘 발생한 변화량이 위의 분포에서 얼마나 벗어나는지 확인
     - p-value threshold 는 0.001 로 함
@@ -18,7 +20,8 @@
 
 ### trapped in the Present
   **Engagement bias**
-(https://medium.com/pinterest-engineering/trapped-in-the-present-how-engagement-bias-in-short-run-experiments-can-blind-you-to-long-run-58b55ad3bda0)
+
+[원문링크](https://medium.com/pinterest-engineering/trapped-in-the-present-how-engagement-bias-in-short-run-experiments-can-blind-you-to-long-run-58b55ad3bda0)
     - user 분류
         + Core: 1주에 몇 번씩 서비스를 사용하고, 주기적으로 pin 을 저장함
         + Casual: 주에 한 번씩은 서비스를 사용하고, 이따금씩 pin 을 저장함
@@ -34,7 +37,8 @@
 
 ### multitask learning (2020 년)
   **사용자 feedback 의 경중을 loss function 에 반영**
-(https://medium.com/pinterest-engineering/multi-task-learning-for-related-products-recommendations-at-pinterest-62684f631c12)
+
+[원문링크](https://medium.com/pinterest-engineering/multi-task-learning-for-related-products-recommendations-at-pinterest-62684f631c12)
 1. Background
     - engagement 의 종류가 여러개: close-up, save, clickthrough(관련 링크로 리디렉트), long-click
     - 기존에는 engagement 가 있으면 1, 없으면 0 으로 봤음
@@ -67,7 +71,9 @@
 
 ### pinability (2017 년)
   **피쳐가 아주 많고, 모델은 비교적 단순**
-(https://medium.com/pinterest-engineering/how-machine-learning-significantly-improves-engagement-abroad-98c6ca937f9f)
+
+[원문링크](https://medium.com/pinterest-engineering/how-machine-learning-significantly-improves-engagement-abroad-98c6ca937f9f)
+* Pinability 요약
     - linear model -> SVM -> GBDT (gradient boosted decision trees)
     - GBDT 로 home feed 한 이후 pin 을 저장하는 비율이 10 % 증가함
     - hive 와 cascading 을 학습 데이터 생성에 사용
