@@ -10,6 +10,7 @@
     - 신규 고객들은 행복한가?
 
 
+   
 ### anomalous metrics
 [원문링크](https://medium.com/pinterest-engineering/learning-about-your-business-from-anomalous-metrics-7d2b7ac0bea9)
 * 서비스가 제대로 돌아가고 있는지 확인
@@ -18,10 +19,11 @@
     - p-value threshold 는 0.001 로 함
 
 
-### trapped in the Present
-  **Engagement bias**
-
+   
+### Trapped in the Present
 [원문링크](https://medium.com/pinterest-engineering/trapped-in-the-present-how-engagement-bias-in-short-run-experiments-can-blind-you-to-long-run-58b55ad3bda0)
+
+* Engagement bias
     - user 분류
         + Core: 1주에 몇 번씩 서비스를 사용하고, 주기적으로 pin 을 저장함
         + Casual: 주에 한 번씩은 서비스를 사용하고, 이따금씩 pin 을 저장함
@@ -35,6 +37,7 @@
         + 서비스가 안정화되어있다면, Bayesian method 사용하여 engagement level 별로 다른 prior 적용
 
 
+   
 ### multitask learning (2020 년)
   **사용자 feedback 의 경중을 loss function 에 반영**
 
@@ -69,6 +72,7 @@
     - 근데 성능이 좋지 못했음. offline 테스트라서 그런것 같음. online 으로 해봐야겠음
 
 
+   
 ### pinability (2017 년)
   **피쳐가 아주 많고, 모델은 비교적 단순**
 
@@ -84,6 +88,7 @@
     - weight 를 적절히 조정하는것이 engagement 를 높여주었음
 
 
+   
 ### pixie
 ![pixie image](https://miro.medium.com/max/1400/0*hJbZbrsZS6ycEZ-u)
 
